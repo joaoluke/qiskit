@@ -13,3 +13,5 @@ result = job.result()
 counts = result.get_counts(qc)
 
 print("Resultados:", counts)
+
+qc.draw()
