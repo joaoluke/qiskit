@@ -20,8 +20,6 @@ circ.cx(0, 1)
 # the qubits in a GHZ state.
 circ.cx(0, 2)
 
-circ.measure(0, 0)
-
 # Set the intial state of the simulator to the ground state using from_int
 state = Statevector.from_int(0, 2**3)
 
